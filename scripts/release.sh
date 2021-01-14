@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-GCS_BUCKET_NAME="gs://my-chart-repo-arthurk"
+GCS_BUCKET_NAME="gs://tsorage/helm-tsorage-repository"
 
 # setup for helm-gcs plugin
 echo "${GCLOUD_SERVICE_ACCOUNT_KEY}" > svc-acc.json
